@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "concat-stream": "^1.4.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regular/brainpm-youtube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/regular/brainpm-youtube/issues"
+  },
+  "homepage": "https://github.com/regular/brainpm-youtube"
 }
