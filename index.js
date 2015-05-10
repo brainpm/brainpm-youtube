@@ -29,7 +29,7 @@ module.exports = function() {
             var ytId = getYouTubeID(href);
             var t = dom5.parseFragment('<div class="lazyYT" data-youtube-id="' + ytId + '"></div>');
             var div = t.childNodes[0];
-            dom5.insertBefore(doc, link, div);
+            dom5.insertBefore(link.parentNode, link, div);
             dom5.remove(link);
         });
         html = dom5.serialize(doc);
