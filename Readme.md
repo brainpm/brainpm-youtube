@@ -4,10 +4,13 @@ a transform stream that turns vanilla links to youtube video pages into divs as 
 
 Turns this
 
+``` html
     <a href="https://www.youtube.com/watch?v=JafQYA7vV6s">bla1</a>
+```
 
 into this
 
+``` html
     <div class="video">
         <div class="lazyYT" data-youtube-id="JafQYA7vV6s"></div>
         <div class="credits">
@@ -19,6 +22,7 @@ into this
             <span class="publishedAt">2015-03-31T15:31:32.000Z</span>
         </div>
     </div>
+```
 
 [1]: https://www.npmjs.com/package/lazy-youtube
 
