@@ -1,6 +1,6 @@
 # brainpm-youtube
 
-a transform stream that turns vanilla links to youtube video pages into divs as expected by [lazy-youtube][1]
+a transform stream that turns vanilla links to youtube video pages into divs as expected by [lazy-youtube][1]. Additionally adds a `div` containing some meta-data.
 
 Turns this
 
